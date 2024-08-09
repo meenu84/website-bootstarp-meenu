@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meenu Sharma</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background: url('backgroundimage.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 80%;
+        }
+        .btn-container {
+            margin-top: 50px;
+        }
+        .btn-container .btn {
+            margin-right: 30px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .skill-item {
+            text-align: center;
+            margin: 50px;
+            color: white;
+        }
+        .skill-item i {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .skill-item a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand" href="#">Meenu Sharma</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="d-flex justify-content-center align-items-center text-center" style="height: 100vh;">
+        <div>
+            <img src="meenusharma (2).jpg" alt="Meenu Sharma" class="profile-pic mb-5">
+            <h1>Meenu Sharma</h1>
+            <div class="btn-container">
+                <a href="https://drive.google.com/file/d/16nH5aUeDgXVypFmcZc0rMpETxAV1dD6A/view?usp=drivesdk" class="btn btn-warning" download>Download CV</a>
+                <a href="https://github.com/meenu84" class="btn btn-danger">GitHub</a>
+                <a href="https://www.linkedin.com/in/meenu-vashisth-6602342b1" class="btn btn-info">LinkedIn</a>
+                <a href="https://eloquent-cheesecake-e03cfe.netlify.app/" class="btn btn-success">Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container py-5">
+        <h2>About Me</h2>
+        <p>I am Meenu Sharma. I have completed my BSc (Non-Medical with Computer Science) from Pt NRS Govt College Rohtak.</p>
+        <p>Recently earned my Master of Computer Science from Maharshi Dayanand University Rohtak.</p>
+        <p>During my MSc, I worked on a project focused on developing an MCQ test management system using Python. Currently, I am working on an MCQ test management system using the Streamlit library. This project has provided me with a deep understanding of software development processes, from initial design through to implementation and testing.</p>
+        <p>I have a diverse skill set that includes HTML, CSS, JavaScript, and Bootstrap, along with hands-on experience in Python and JavaScript. My passion lies in web development, especially in front-end development, where I enjoy creating intuitive and user-friendly interfaces.</p>
+        <p>In addition to my academic pursuits, I have actively engaged in various workshops and conferences to broaden my knowledge and network within the industry. I participated in a workshop organized by Tech Mahindra Nandi Foundation at Maharshi Dayanand University, which provided insights into industry practices and emerging technologies. I also attended a national conference on future computing technologies for sustainable development, held in collaboration with Chaudhry Ranbir Singh Institute of Social & Economic Change, where I learned about the latest trends and innovations in computing.</p>
+        <p>I am highly motivated and eager to apply my skills and knowledge to real-world challenges. I am constantly seeking opportunities to learn and grow, aiming to make a meaningful impact in the field of web development.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container py-5">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <a href="https://www.w3schools.com/html/" target="_blank">
+                    <i class="fab fa-html5" style="color: #e34c26;"></i>
+                    <div class="spinner-border text-info"></div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width:95%"></div>
+                      </div>
+                    <p>HTML</p>
+                </a>
+            </div>
+            <div class="skill-item">
+                <a href="https://www.w3schools.com/css/" target="_blank">
+                    <i class="fab fa-css3-alt" style="color: lightseagreen;"></i>
+                    <div class="spinner-border text-primary"></div>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-sucess" style="width:95%"></div>
+                      </div>
+                    <p>CSS</p>
+                </a>
+            </div>
+            <div class="skill-item">
+                <a href="https://www.w3schools.com/js/" target="_blank">
+                    <i class="fab fa-js" style="color: #f0db4f;"></i>
+                    <div class="spinner-border text-danger"></div>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width:70%"></div>
+                      </div>
+                    <p>JavaScript</p>
+                </a>
+            </div>
+            <div class="skill-item">
+                <a href="https://www.w3schools.com/bootstrap4/" target="_blank">
+                    <i class="fab fa-bootstrap" style="color: lime;"></i>
+                    <div class="spinner-border text-warning"></div>
+
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width:90%"></div>
+                      </div>
+                    <p>Bootstrap</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
+        <h2>Contact</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
